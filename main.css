@@ -1,0 +1,72 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+.list-app {
+  height: 80%;
+  width: 30em;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 10em auto;
+}
+
+.list-app h1 {
+  text-align: center;
+}
+
+.add-item-center {
+  margin-left: 6em;
+}
+
+.add-item {
+  width: 25em;
+  margin: 0 auto;
+}
+
+.enter-item {
+  width: 15em;
+  margin-left: 3.75em;
+}
+
+.list-item {
+  list-style: none;
+  margin-top: 1em;
+  font-size: 1.35em;
+  width: 20em;
+  
+ 
+}
+
+.list-item li {
+  margin-top: 1em;
+  min-height: 1.5em;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.list-item i:hover {
+  cursor: pointer;
+}
+
+.add-remove-button {
+  width: 3em;
+  float: right;
+  padding-left: .5em;
+}
+
+.fa-minus-square-o {
+  margin-left: .5em;
+}
+
+.fa-check-square-o {
+  display: none;
+}
+
