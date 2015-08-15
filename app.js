@@ -27,13 +27,15 @@ $('.add-button').click(function(){
   
  $('.list-item').on('click', '.fa-check-square', function(){
    $(this).hide();
-   $('.list-item li').addClass('line-through');
-   $('.fa-check-square-o').show();
+   $(this).parent().parent().addClass('line-through');
+   $(this).siblings('.fa-check-square-o').show();
  }).on('click', '.fa-check-square-o', function(){
    $(this).hide();
-   $('.list-item li').removeClass('line-through');
-   $('.fa-check-square').show();
+   $(this).parent().parent().removeClass('line-through');
+   $(this).siblings('.fa-check-square').show();
  })
+  
+ $('input').focus();
   
 });
 
